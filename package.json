@@ -1,0 +1,22 @@
+{
+  "name": "taxable",
+  "version": "1.0.0",
+  "description": "a calculator to work out what your tax is spent on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "calculator",
+    "tax",
+    "government",
+    "uk"
+  ],
+  "author": "Josh Shepherd",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
